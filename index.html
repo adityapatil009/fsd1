@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>!....Our Website....!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="C:\Users\hp\OneDrive\Desktop\JAVA\HTML\bootstrap-4.3.1-dist\js"></script>
+</head>
+<div class="parallax">
+  <nav class="sticky-top">
+  <ul>
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="form.html">Form</a></li>
+    <li><a href="about.asp">About</a></li>
+  </ul>
+  </nav>
+  <body>
+    <h1>
+      Patil and Sons.....
+    </h1>
+
+    <br>
+    <br>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+
+
+      .parallax {
+        /* The image used */
+        background-image: url("https://electrek.co/wp-content/uploads/sites/3/2018/04/harley.jpg?quality=82&strip=all");
+        height: 120vh;
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #ff0000;
+        color: white;
+      }
+
+      form {
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Georgia", Times, serif;
+      }
+
+      .p2 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        color: solid black;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      table,
+      th,
+      td {
+        background-color: #ffffff;
+      }
+
+      .tablebox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <div class="container">
+      <div class="tablebox">
+        <table margin=auto width=50%>
+          <tr>
+            <th>Bike Name</th>
+            <th>Range</th>
+            <th>Top Speed</th>
+            <th>Price(on road)</th>
+          </tr>
+          <tr>
+            <td>Ruchik 300</td>
+            <td>2000km</td>
+            <td>300kmph</td>
+            <td>Rs.1500000</td>
+          </tr>
+          <tr>
+            <td>Ruchik 500</td>
+            <td>1000km</td>
+            <td>500kmph</td>
+            <td>Rs.2000000</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <p class="p2">
+        <b>
+          Fill your contact details here :
+        </b>
+      </p>
+      <br>
+
+      <form align="center">
+        <label for="fname">First name :</label><br>
+        <br>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+        <label for="lname">Last name :</label><br>
+        <br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <label for="pnum">Contact number :</label><br>
+        <br>
+        <input type="pnum" id="pnum" name="pnum">
+        <br>
+        <br>
+        <button class="btn btn-primary" type="submit" value="Submit"> Submit </button>
+      </form>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
